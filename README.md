@@ -13,4 +13,5 @@ node-gyp configure build
 var syslog = require('syslog');
 
 var logger = syslog.Logger();
+
 logger.log(syslog.error, 'log message');
