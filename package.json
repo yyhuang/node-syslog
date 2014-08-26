@@ -1,0 +1,8 @@
+{
+  "name": "syslog",
+  "version": "0.0.1",
+  "main": "./syslog",
+  "engines": {
+    "node": ">=0.8.0"
+  },
+}
