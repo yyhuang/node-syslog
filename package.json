@@ -1,8 +1,25 @@
 {
   "name": "syslog",
   "version": "0.0.1",
-  "main": "./syslog",
-  "engines": {
-    "node": ">=0.8.0"
+  "description": "syslog for node.js",
+  "main": "syslog.js",
+  "directories": {
+    "test": "test"
   },
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yyhuang/node-syslog"
+  },
+  "keywords": [
+    "syslog"
+  ],
+  "author": "yyhuang",
+  "gypfile": true,
+  "bugs": {
+    "url": "https://github.com/yyhuang/node-syslog/issues"
+  },
+  "homepage": "https://github.com/yyhuang/node-syslog"
 }
